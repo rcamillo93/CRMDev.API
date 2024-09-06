@@ -8,7 +8,16 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
+    <Folder Include="Queries\OpportunityQueries\GetOpportunityById\" />
+    <Folder Include="Queries\UserQueries\GetUserById\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRMDev.Core\CRMDev.Core.csproj" />
   </ItemGroup>
 
 </Project>
